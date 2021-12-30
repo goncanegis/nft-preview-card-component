@@ -109,8 +109,8 @@ h6 {
 }
 
 .card-title {
-  font-size: 23px;
-  margin-bottom: 1rem;
+  font-size: 21px;
+  margin-bottom: 0.785rem;
 }
 
 .card-title:hover {
@@ -144,21 +144,20 @@ h6 {
 
 .price-text {
   color: var(--cyan);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .price-time {
   color: var(--soft-blue);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .line {
   width: 100%;
-  height: 0.5px;
+  height: 1px;
   background-color: var(--soft-blue);
-  opacity: 0.5;
   margin-bottom: 1rem;
 }
 
@@ -168,8 +167,8 @@ h6 {
 }
 
 .avatar-img {
-  width: 33px;
-  height: 33px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--white);
@@ -179,7 +178,7 @@ h6 {
 .card-footer-text {
   color: var(--soft-blue);
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text-white {
