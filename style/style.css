@@ -94,6 +94,7 @@ h6 {
 
 .main-img-container:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .eye-icon {
@@ -115,6 +116,7 @@ h6 {
 
 .card-title:hover {
   color: var(--cyan);
+  cursor: pointer;
 }
 
 .card-text {
@@ -187,6 +189,7 @@ h6 {
 
 .text-white:hover {
   color: var(--cyan);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1440px) {
