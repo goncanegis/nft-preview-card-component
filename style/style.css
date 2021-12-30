@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* 
+## Layout
+
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+ */
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--main-bg);
+  font-size: 18px;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+}
+
+.container {
+  width: 327px;
+  background-color: var(--card-bg);
+  margin-inline: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-img {
+  height: 275px;
+  width: 275px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 23px;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-weight: 300;
+  color: var(--soft-blue);
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+}
+
+.card-icon {
+  height: 20px;
+  object-fit: cover;
+  margin-right: 6px;
+}
+
+.price-text {
+  color: var(--cyan);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price-time {
+  color: var(--soft-blue);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: var(--soft-blue);
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--white);
+  margin-right: 16px;
+}
+
+.card-footer-text {
+  color: var(--soft-blue);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.text-white {
+  color: var(--white);
+}
